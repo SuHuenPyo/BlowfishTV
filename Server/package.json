@@ -1,0 +1,22 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "BlowFish TV ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SuHuenPyo/BlowfishTV.git"
+  },
+  "keywords": [
+    "BlowFishTV"
+  ],
+  "author": "suhuenPyo, Hyonkey",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SuHuenPyo/BlowfishTV/issues"
+  },
+  "homepage": "https://github.com/SuHuenPyo/BlowfishTV#readme"
+}
