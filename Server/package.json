@@ -4,7 +4,8 @@
   "description": "BlowFish TV ",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "supervisor ./src/app.js"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,9 @@
   "bugs": {
     "url": "https://github.com/SuHuenPyo/BlowfishTV/issues"
   },
-  "homepage": "https://github.com/SuHuenPyo/BlowfishTV#readme"
+  "homepage": "https://github.com/SuHuenPyo/BlowfishTV#readme",
+  "dependencies": {
+    "concurrently": "^5.3.0",
+    "express": "^4.17.1"
+  }
 }
