@@ -18,10 +18,6 @@ app.get("", (req,res)=>{
 
 
 
-
-
-
-
 //listenning
 app.listen(3000, ()=>{
     console.log("Server is up on port 3000.");
